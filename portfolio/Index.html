@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GunaShankar Polaki — Creative Developer Portfolio</title>
+
+  <!-- Social Share Preview Tags (for WhatsApp, LinkedIn, Discord) -->
+  <meta property="og:title" content="GunaShankar Polaki — Developer Portfolio" />
+  <meta property="og:description" content="CS Student practicing Java, problem solving on LeetCode, and building real-world web projects." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Custom Difference Cursor -->
+  <div class="editorial-cursor" id="cursor"></div>
+  <div class="toast" id="toast">Ready</div>
+
+  <!-- Minimal Floating Interactive Bar
+  <nav class="floating-hud" aria-label="Interactive Controls">
+    <button class="hud-pill-btn" id="slideCounterBtn" title="Easter Egg: Click 5x to invert!">01 / 10</button>
+    <div class="hud-divider"></div>
+    <button class="hud-pill-btn" id="openTermBtn">&gt;_ Terminal</button>
+    <button class="hud-pill-btn" id="openResumeBtn">Resume</button>
+    <button class="hud-pill-btn" id="openGameBtn">Mini-Game</button>
+    <button class="hud-pill-btn" id="sfxBtn">SFX: ON</button>
+  </nav> -->
+
+  <!-- =========================================================
+       SLIDE 01: COVER / HERO
+       ========================================================= -->
+  <section class="slide slide--dark in-view" id="slide-1" data-slide="01 / 10">
+    <!-- ==========================================================
+         PHOTO PLACEHOLDER #1: FULL-BLEED HERO BACKGROUND PHOTO
+         1. Put your image inside the "images" folder (e.g. images/hero-bg.jpg).
+         2. Uncomment the <img> tag below and delete the .ph-tag span.
+         ========================================================== -->
+    <div class="photo-box photo-box--dark-bg">
+      <!-- <img src="images/hero-bg.jpg" alt="GunaShankar Polaki workspace" /> -->
+      <span class="ph-tag" style="position:absolute; top:76px; left:50%; transform:translateX(-50%);">[ PHOTO SLOT #1: FULL-BLEED HERO BACKGROUND PHOTO ]</span>
+    </div>
+
+    <div class="slide-top">
+      <span>Personal Portfolio</span>
+      <span class="slide-date" data-live-date>09 May,<br>2026</span>
+    </div>
+
+    <div class="slide-1-center">
+      <div class="hero-stack">
+        <h1 class="display-xl anim-up" style="--d: 40ms;">creative</h1>
+        <span class="hero-sub-badge anim-up" style="--d: 160ms;">developer portfolio</span>
+      </div>
+      <div class="hero-cta-row anim-up" style="--d: 260ms;">
+        <a href="#slide-2" class="btn-editorial">Enter Portfolio ↓</a>
+        <a href="#slide-8" class="btn-editorial">See Projects →</a>
+      </div>
+    </div>
+
+    <div class="slide-bottom">
+      <div class="b-name">GunaShankar<br>Polaki</div>
+      <div class="b-meta"><a href="mailto:gunapolaki143@gmail.com">gunapolaki143@gmail.com</a></div>
+      <div class="b-meta"><a href="https://github.com/gunapolaki143-maker" target="_blank" rel="noopener">@gunapolaki143-maker</a></div>
+      <div class="b-meta b-right"><a href="https://leetcode.com/u/Gunashankar/" target="_blank" rel="noopener">LeetCode ↗</a></div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SLIDE 02: INTRODUCTION
+       ========================================================= -->
+  <section class="slide" id="slide-2" data-slide="02 / 10">
+    <div class="slide-top">
+      <span>Personal Portfolio</span>
+      <span class="slide-date" data-live-date>09 May,<br>2026</span>
+    </div>
+
+    <div class="slide-2-grid">
+      <div>
+        <h2 class="display-lg anim-left" style="--d: 40ms; margin-bottom: 26px;">intro-<br>duction</h2>
+        <p class="body-copy anim-up" style="--d: 140ms; margin-bottom: 18px;">
+          I'm a Computer Science student who enjoys learning programming and exploring new technologies.
+          I’m currently practicing Java, improving my problem-solving skills, and learning web development
+          by building projects.
+        </p>
+        <p class="body-copy anim-up" style="--d: 220ms;">
+          I'm still learning and growing, and I believe in improving through consistent practice and
+          hands-on experience. My goal is to become a skilled developer and build projects that solve
+          real-world problems.
+        </p>
+      </div>
+
+      <div class="photo-wrapper">
+        <div class="black-accent accent-slide-2 anim-block-tl" data-parallax="0.06"></div>
+        <!-- ==========================================================
+             PHOTO PLACEHOLDER #2: INTRODUCTION LANDSCAPE PHOTO
+             Save as: images/intro-photo.jpg (16:10 landscape)
+             Uncomment <img> and remove .ph-tag / .ph-sub.
+             ========================================================== -->
+        <div class="photo-box slide-2-photo anim-right" style="--d: 120ms;">
+          <!-- <img src="images/intro-photo.jpg" alt="GunaShankar coding" /> -->
+          <span class="ph-tag">[ PHOTO SLOT #2: INTRODUCTION PHOTO ]</span>
+          <p class="ph-sub">Landscape photo (e.g., working on laptop)</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-bottom">
+      <div class="b-name">GunaShankar<br>Polaki</div>
+      <div class="b-meta"><a href="mailto:gunapolaki143@gmail.com">gunapolaki143@gmail.com</a></div>
+      <div class="b-meta"><a href="https://github.com/gunapolaki143-maker" target="_blank" rel="noopener">@gunapolaki143-maker</a></div>
+      <div class="b-meta b-right"><a href="https://leetcode.com/u/Gunashankar/" target="_blank" rel="noopener">LeetCode ↗</a></div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SLIDE 03: ABOUT ME
+       ========================================================= -->
+  <section class="slide" id="slide-3" data-slide="03 / 10">
+    <div class="slide-top">
+      <span>Personal Portfolio</span>
+      <span class="slide-date" data-live-date>09 May,<br>2026</span>
+    </div>
+
+    <div class="slide-3-grid">
+      <div class="photo-wrapper">
+        <div class="black-accent accent-slide-3 anim-block-tr" data-parallax="-0.06"></div>
+        <!-- ==========================================================
+             PHOTO PLACEHOLDER #3: PERSONAL PORTRAIT PHOTO
+             Save as: images/my-portrait.jpg
+             Uncomment <img> and remove .ph-tag / .ph-sub.
+             ========================================================== -->
+        <div class="photo-box slide-3-photo anim-left" style="--d: 100ms;">
+          <!-- <img src="images/my-portrait.jpg" alt="GunaShankar Polaki" /> -->
+          <span class="ph-tag">[ PHOTO SLOT #3: YOUR PORTRAIT PHOTO ]</span>
+          <p class="ph-sub">Your profile / candid developer portrait</p>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="display-lg anim-right" style="--d: 60ms; margin-bottom: 24px;">hello, i'm<br>gunashankar<br>polaki!</h2>
+        <p class="body-copy anim-up" style="--d: 180ms;">
+          I'm a Computer Science student who enjoys learning programming and exploring new technologies.
+          I’m currently practicing Java, improving my problem-solving skills, and learning web development
+          by building projects. Through consistent daily coding on LeetCode and shipping repositories on
+          GitHub, I’m working toward building real-world software that matters.
+        </p>
+      </div>
+    </div>
+
+    <div class="slide-bottom">
+      <div class="b-name">GunaShankar<br>Polaki</div>
+      <div class="b-meta"><a href="mailto:gunapolaki143@gmail.com">gunapolaki143@gmail.com</a></div>
+      <div class="b-meta"><a href="https://github.com/gunapolaki143-maker" target="_blank" rel="noopener">@gunapolaki143-maker</a></div>
+      <div class="b-meta b-right"><a href="https://leetcode.com/u/Gunashankar/" target="_blank" rel="noopener">LeetCode ↗</a></div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SLIDE 04: MY EDUCATION
+       ========================================================= -->
+  <section class="slide" id="slide-4" data-slide="04 / 10">
+    <div class="slide-top">
+      <span>Personal Portfolio</span>
+      <span class="slide-date" data-live-date>09 May,<br>2026</span>
+    </div>
+
+    <div class="slide-4-grid">
+      <div class="photo-wrapper">
+        <div class="black-accent accent-slide-4 anim-block-left" data-parallax="0.05"></div>
+        <!-- ==========================================================
+             PHOTO PLACEHOLDER #4: EDUCATION / STUDY PHOTO
+             Save as: images/education.jpg
+             Uncomment <img> and remove .ph-tag / .ph-sub.
+             ========================================================== -->
+        <div class="photo-box slide-4-photo anim-up" style="--d: 100ms;">
+          <!-- <img src="images/education.jpg" alt="Study and Computer Science" /> -->
+          <span class="ph-tag">[ PHOTO SLOT #4: EDUCATION / STUDY PHOTO ]</span>
+          <p class="ph-sub">Square/portrait photo — notebook, code editor, or campus</p>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="display-lg anim-right" style="--d: 40ms;">my education</h2>
+        <p class="body-copy anim-up" style="--d: 140ms; margin-top: 16px;">
+          Building a strong Computer Science foundation with hands-on programming, algorithms, and software development.
+        </p>
+        <div class="edu-divider"></div>
+
+        <div class="edu-row anim-up" style="--d: 260ms;">
+          <div>
+            <div class="edu-title">B.Tech / B.Sc in Computer Science</div>
+            <div class="edu-years">[Your College / Year – Present]</div>
+          </div>
+          <p class="body-copy" style="font-size: 0.94rem;">
+            Studying core CS fundamentals, object-oriented programming in Java, data structures,
+            and practical web engineering.
+          </p>
+        </div>
+
+        <div class="edu-row anim-up" style="--d: 360ms; margin-bottom: 0;">
+          <div>
+            <div class="edu-title">Self-Taught &amp; Daily Practice</div>
+            <div class="edu-years">[Ongoing]</div>
+          </div>
+          <p class="body-copy" style="font-size: 0.94rem;">
+            Solving algorithmic challenges on LeetCode and building hands-on web applications
+            documented on GitHub.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-bottom">
+      <div class="b-name">GunaShankar<br>Polaki</div>
+      <div class="b-meta"><a href="mailto:gunapolaki143@gmail.com">gunapolaki143@gmail.com</a></div>
+      <div class="b-meta"><a href="https://github.com/gunapolaki143-maker" target="_blank" rel="noopener">@gunapolaki143-maker</a></div>
+      <div class="b-meta b-right"><a href="https://leetcode.com/u/Gunashankar/" target="_blank" rel="noopener">LeetCode ↗</a></div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SLIDE 05: MY PERSONAL SKILLS
+       ========================================================= -->
+  <section class="slide" id="slide-5" data-slide="05 / 10">
+    <div class="slide-top">
+      <span>Personal Portfolio</span>
+      <span class="slide-date" data-live-date>09 May,<br>2026</span>
+    </div>
+
+    <div class="slide-5-wrap">
+      <div class="slide-5-top">
+        <div class="photo-wrapper slide-5-photo-wrap">
+          <div class="black-accent accent-slide-5 anim-block-tl" data-parallax="-0.05"></div>
+          <!-- ==========================================================
+               PHOTO PLACEHOLDER #5: WIDE WORKSPACE / TECH PHOTO
+               Save as: images/skills-banner.jpg (16:7 wide)
+               Uncomment <img> and remove .ph-tag / .ph-sub.
+               ========================================================== -->
+          <div class="photo-box slide-5-photo anim-right" style="--d: 100ms;">
+            <!-- <img src="images/skills-banner.jpg" alt="Developer desk setup" /> -->
+            <span class="ph-tag">[ PHOTO SLOT #5: WIDE SKILLS / SETUP PHOTO ]</span>
+            <p class="ph-sub">Wide horizontal banner photo (16:7)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide-5-bottom">
+        <div>
+          <h2 class="display-lg anim-left" style="--d: 80ms; margin-bottom: 16px;">my<br>personal skills</h2>
+          <p class="body-copy anim-up" style="--d: 180ms;">
+            Technologies and habits I actively practice every day to grow from learner to real-world builder.
+          </p>
+        </div>
+
+        <div class="skills-list">
+          <div class="skill-entry anim-up" style="--d: 160ms;">
+            <h3>Java Programming</h3>
+            <p>Core syntax, OOP concepts, collections, and clean problem-solving logic.</p>
+          </div>
+          <div class="skill-entry anim-up" style="--d: 240ms;">
+            <h3>Problem Solving &amp; DSA</h3>
+            <p>Consistent algorithmic practice on LeetCode with focus on edge cases.</p>
+          </div>
+          <div class="skill-entry anim-up" style="--d: 320ms;">
+            <h3>Web Development</h3>
+            <p>Building responsive interfaces with HTML5, CSS3, and interactive JavaScript.</p>
+          </div>
+          <div class="skill-entry anim-up" style="--d: 400ms;">
+            <h3>Git &amp; GitHub</h3>
+            <p>Version control, project documentation, and shipping code consistently.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-bottom">
+      <div class="b-name">GunaShankar<br>Polaki</div>
+      <div class="b-meta"><a href="mailto:gunapolaki143@gmail.com">gunapolaki143@gmail.com</a></div>
+      <div class="b-meta"><a href="https://github.com/gunapolaki143-maker" target="_blank" rel="noopener">@gunapolaki143-maker</a></div>
+      <div class="b-meta b-right"><a href="https://leetcode.com/u/Gunashankar/" target="_blank" rel="noopener">LeetCode ↗</a></div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SLIDE 06: MY EXPERIENCE
+       ========================================================= -->
+  <section class="slide" id="slide-6" data-slide="06 / 10">
+    <div class="slide-top">
+      <span>Personal Portfolio</span>
+      <span class="slide-date" data-live-date>09 May,<br>2026</span>
+    </div>
+
+    <div class="slide-6-grid">
+      <div>
+        <!-- ==========================================================
+             PHOTO PLACEHOLDER #6: EXPERIENCE / CODING PHOTO
+             Save as: images/experience.jpg
+             Uncomment <img> and remove .ph-tag / .ph-sub.
+             ========================================================== -->
+        <div class="photo-box slide-6-photo anim-left" style="--d: 60ms;">
+          <!-- <img src="images/experience.jpg" alt="Developer experience" /> -->
+          <span class="ph-tag">[ PHOTO SLOT #6: EXPERIENCE / LAPTOP PHOTO ]</span>
+          <p class="ph-sub">Horizontal photo above the heading</p>
+        </div>
+        <h2 class="display-lg anim-up" style="--d: 150ms; margin-bottom: 14px;">my work<br>experience</h2>
+        <p class="body-copy anim-up" style="--d: 230ms;">
+          My hands-on journey through coding practice, project building, and preparing for software engineering roles.
+        </p>
+      </div>
+
+      <div class="exp-stack">
+        <div class="exp-item anim-right" style="--d: 120ms;">
+          <h3>Independent Web &amp; Java Builder <span class="exp-time">Present</span></h3>
+          <p>Building practical projects from scratch to strengthen frontend layout skills and Java fundamentals.</p>
+        </div>
+
+        <div class="exp-item anim-right" style="--d: 220ms;">
+          <h3>LeetCode Problem Solver <span class="exp-time">Consistent Practice</span></h3>
+          <p>Practicing arrays, strings, recursion, and algorithmic optimization to sharpen technical interview readiness.</p>
+        </div>
+
+        <div class="exp-item anim-right" style="--d: 320ms;">
+          <h3>[Placeholder: Internship / Hackathon / Club Role] <span class="exp-time">[Year]</span></h3>
+          <p>Space reserved for your upcoming internship, college tech fest, open-source contribution, or freelance project.</p>
+        </div>
+
+        <div class="anim-up" style="--d: 400ms; padding-top: 8px;">
+          <button class="btn-editorial" id="openResumeBtn2">Open Printable Resume ↗</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-bottom">
+      <div class="b-name">GunaShankar<br>Polaki</div>
+      <div class="b-meta"><a href="mailto:gunapolaki143@gmail.com">gunapolaki143@gmail.com</a></div>
+      <div class="b-meta"><a href="https://github.com/gunapolaki143-maker" target="_blank" rel="noopener">@gunapolaki143-maker</a></div>
+      <div class="b-meta b-right"><a href="https://leetcode.com/u/Gunashankar/" target="_blank" rel="noopener">LeetCode ↗</a></div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SLIDE 07: PROJECT PORTFOLIO INTRO
+       ========================================================= -->
+  <section class="slide" id="slide-7" data-slide="07 / 10">
+    <div class="slide-top">
+      <span>Personal Portfolio</span>
+      <span class="slide-date" data-live-date>09 May,<br>2026</span>
+    </div>
+
+    <div class="slide-7-stage">
+      <!-- ==========================================================
+           PHOTO PLACEHOLDER #7A: TOP-LEFT PROJECT TEASER PHOTO
+           Save as: images/teaser-1.jpg
+           ========================================================== -->
+      <div class="photo-box slide-7-tl anim-diag-tl" data-parallax="0.07" style="--d: 80ms;">
+        <!-- <img src="images/teaser-1.jpg" alt="Project preview 1" /> -->
+        <span class="ph-tag">[ PHOTO SLOT #7A ]</span>
+      </div>
+
+      <div class="slide-7-center">
+        <h2 class="display-xl anim-pop" style="--d: 40ms; font-size: clamp(3rem, 7vw, 6.2rem); margin-bottom: 20px;">project<br>portfolio</h2>
+        <p class="body-copy anim-up" style="--d: 200ms; margin: 0 auto;">
+          A growing collection of Java utilities, problem-solving experiments, and responsive web builds.
+          Placeholders below are ready for your upcoming projects.
+        </p>
+      </div>
+
+      <!-- ==========================================================
+           PHOTO PLACEHOLDER #7B: BOTTOM-RIGHT PROJECT TEASER PHOTO
+           Save as: images/teaser-2.jpg
+           ========================================================== -->
+      <div class="photo-box slide-7-br anim-diag-br" data-parallax="-0.07" style="--d: 140ms;">
+        <!-- <img src="images/teaser-2.jpg" alt="Project preview 2" /> -->
+        <span class="ph-tag">[ PHOTO SLOT #7B ]</span>
+      </div>
+    </div>
+
+    <div class="slide-bottom">
+      <div class="b-name">GunaShankar<br>Polaki</div>
+      <div class="b-meta"><a href="mailto:gunapolaki143@gmail.com">gunapolaki143@gmail.com</a></div>
+      <div class="b-meta"><a href="https://github.com/gunapolaki143-maker" target="_blank" rel="noopener">@gunapolaki143-maker</a></div>
+      <div class="b-meta b-right"><a href="https://leetcode.com/u/Gunashankar/" target="_blank" rel="noopener">LeetCode ↗</a></div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SLIDE 08: FIRST PROJECT
+       ========================================================= -->
+  <section class="slide" id="slide-8" data-slide="08 / 10">
+    <div class="slide-top">
+      <span>Personal Portfolio</span>
+      <span class="slide-date" data-live-date>09 May,<br>2026</span>
+    </div>
+
+    <div class="slide-8-grid">
+      <div>
+        <h2 class="display-lg anim-left" style="--d: 40ms; margin-bottom: 20px;">first<br>project</h2>
+        <p class="body-copy anim-up" style="--d: 150ms;">
+          <strong>[Project 1 Title — Edit Later]</strong><br>
+          Placeholder description: Replace this with your first featured Java or Web Development project—what
+          problem it solves, the tech stack used, and what you learned while building it.
+        </p>
+        <div class="project-meta-links anim-up" style="--d: 240ms;">
+          <a href="https://github.com/gunapolaki143-maker" target="_blank" rel="noopener" class="btn-editorial">GitHub Repo ↗</a>
+          <a href="#slide-9" class="btn-editorial">Next Project ↓</a>
+        </div>
+      </div>
+
+      <div class="project-visual-stage">
+        <!-- ==========================================================
+             PHOTO PLACEHOLDER #8A: FIRST PROJECT MAIN SCREENSHOT
+             Save as: images/project-1-main.png
+             ========================================================== -->
+        <div class="photo-box slide-8-photo-main anim-right" style="--d: 100ms;">
+          <!-- <img src="images/project-1-main.png" alt="First project screenshot" /> -->
+          <span class="ph-tag">[ PHOTO SLOT #8A: PROJECT 1 MAIN MOCKUP ]</span>
+          <p class="ph-sub">Main app / website screenshot</p>
+        </div>
+
+        <!-- ==========================================================
+             PHOTO PLACEHOLDER #8B: FIRST PROJECT CIRCULAR DETAIL SHOT
+             Save as: images/project-1-detail.png
+             ========================================================== -->
+        <div class="photo-box slide-8-photo-circle">
+          <!-- <img src="images/project-1-detail.png" alt="First project detail" /> -->
+          <span class="ph-tag">[ #8B CIRCLE ]</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-bottom">
+      <div class="b-name">GunaShankar<br>Polaki</div>
+      <div class="b-meta"><a href="mailto:gunapolaki143@gmail.com">gunapolaki143@gmail.com</a></div>
+      <div class="b-meta"><a href="https://github.com/gunapolaki143-maker" target="_blank" rel="noopener">@gunapolaki143-maker</a></div>
+      <div class="b-meta b-right"><a href="https://leetcode.com/u/Gunashankar/" target="_blank" rel="noopener">LeetCode ↗</a></div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SLIDE 09: SECOND PROJECT
+       ========================================================= -->
+  <section class="slide" id="slide-9" data-slide="09 / 10">
+    <div class="slide-top">
+      <span>Personal Portfolio</span>
+      <span class="slide-date" data-live-date>09 May,<br>2026</span>
+    </div>
+
+    <div class="slide-9-grid">
+      <div>
+        <!-- ==========================================================
+             PHOTO PLACEHOLDER #9: SECOND PROJECT SCREENSHOT
+             Save as: images/project-2.png
+             ========================================================== -->
+        <div class="photo-box slide-9-photo anim-left" style="--d: 80ms;">
+          <!-- <img src="images/project-2.png" alt="Second project screenshot" /> -->
+          <span class="ph-tag">[ PHOTO SLOT #9: PROJECT 2 SCREENSHOT ]</span>
+          <p class="ph-sub">Laptop / UI showcase photo for your second project</p>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="display-lg anim-right" style="--d: 60ms; margin-bottom: 20px;">second<br>project</h2>
+        <p class="body-copy anim-up" style="--d: 160ms; margin-bottom: 18px;">
+          <strong>[Project 2 Title — Edit Later]</strong><br>
+          Placeholder description: Describe your second project here (e.g., an interactive web app,
+          portfolio experiment, or Java console/GUI tool).
+        </p>
+        <p class="body-copy anim-up" style="--d: 240ms; font-size: 0.9rem; color: var(--ink-muted);">
+          <strong>+ Project 3 Slot Ready:</strong> Duplicate Slide 8 or 9 anytime to add your third project as you build more!
+        </p>
+        <div class="project-meta-links anim-up" style="--d: 320ms;">
+          <a href="https://github.com/gunapolaki143-maker" target="_blank" rel="noopener" class="btn-editorial">View GitHub ↗</a>
+          <a href="#slide-10" class="btn-editorial">Contact Me ↓</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-bottom">
+      <div class="b-name">GunaShankar<br>Polaki</div>
+      <div class="b-meta"><a href="mailto:gunapolaki143@gmail.com">gunapolaki143@gmail.com</a></div>
+      <div class="b-meta"><a href="https://github.com/gunapolaki143-maker" target="_blank" rel="noopener">@gunapolaki143-maker</a></div>
+      <div class="b-meta b-right"><a href="https://leetcode.com/u/Gunashankar/" target="_blank" rel="noopener">LeetCode ↗</a></div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SLIDE 10: THANK YOU + CONTACT
+       ========================================================= -->
+  <section class="slide slide--dark" id="slide-10" data-slide="10 / 10">
+    <!-- ==========================================================
+         PHOTO PLACEHOLDER #10: CLOSING FULL-BLEED BACKGROUND PHOTO
+         Save as: images/closing-bg.jpg
+         ========================================================== -->
+    <div class="photo-box photo-box--dark-bg">
+      <!-- <img src="images/closing-bg.jpg" alt="Closing workspace background" /> -->
+      <span class="ph-tag" style="position:absolute; top:76px; left:50%; transform:translateX(-50%);">[ PHOTO SLOT #10: CLOSING BACKGROUND PHOTO ]</span>
+    </div>
+
+    <div class="slide-top">
+      <span>Personal Portfolio</span>
+      <span class="slide-date" data-live-date>09 May,<br>2026</span>
+    </div>
+
+    <div class="slide-10-center">
+      <div>
+        <h2 class="display-xl anim-left" style="--d: 40ms; font-size: clamp(3rem, 7vw, 6.2rem); margin-bottom: 20px;">thank you so<br>much!</h2>
+        <p class="body-copy anim-up" style="--d: 160ms;">
+          Always open to learning, collaborating on projects, and connecting with fellow developers.
+        </p>
+        <div class="anim-up" style="--d: 240ms; margin-top: 20px; display: flex; gap: 10px; flex-wrap: wrap;">
+          <button class="btn-editorial" id="copyEmailBtn">Copy Email</button>
+          <a href="#slide-1" class="btn-editorial">Back to Top ↑</a>
+        </div>
+      </div>
+
+      <form class="contact-panel anim-right" style="--d: 140ms;" id="contactForm">
+        <div style="font-family: var(--font-mono); font-size: 0.78rem; margin-bottom: 14px; letter-spacing: 0.05em;">
+          // SEND A DIRECT MESSAGE
+        </div>
+        <label for="cName">NAME</label>
+        <input type="text" id="cName" placeholder="Your name" required />
+
+        <label for="cEmail">EMAIL</label>
+        <input type="email" id="cEmail" placeholder="you@example.com" required />
+
+        <label for="cMsg">MESSAGE</label>
+        <textarea id="cMsg" rows="3" placeholder="Let's build something..." required></textarea>
+
+        <button type="submit" class="btn-editorial" style="width: 100%; background: #ffffff; color: #111111;">
+          Send via Email →
+        </button>
+      </form>
+    </div>
+
+    <div class="slide-bottom">
+      <div class="b-name">GunaShankar<br>Polaki</div>
+      <div class="b-meta"><a href="mailto:gunapolaki143@gmail.com">gunapolaki143@gmail.com</a></div>
+      <div class="b-meta"><a href="https://github.com/gunapolaki143-maker" target="_blank" rel="noopener">@gunapolaki143-maker</a></div>
+      <div class="b-meta b-right"><a href="https://leetcode.com/u/Gunashankar/" target="_blank" rel="noopener">LeetCode ↗</a></div>
+    </div>
+  </section>
+
+  <!-- DRAGGABLE EDITORIAL DEV CARD 
+  <aside class="draggable-card" id="dragCard">
+    <div class="drag-bar" id="dragHandle">
+      <span>DEV_CARD // DRAG ME</span>
+      <button id="closeDragBtn" style="font-size: 0.85rem;">×</button>
+    </div>
+    <div style="line-height: 1.5; color: rgba(255,255,255,0.85);">
+      <div><strong>Status:</strong> CS Student</div>
+      <div><strong>Focus:</strong> Java + Web Dev</div>
+      <div><strong>Keys:</strong> ↑ / ↓ to flip slides</div>
+    </div>
+  </aside>-->
+
+  <!-- MODAL 1: INTERACTIVE TERMINAL
+  <div class="modal-overlay" id="termModal">
+    <div class="modal-card">
+      <div class="modal-top">
+        <span>GUNASHANKAR_OS // TERMINAL</span>
+        <button data-close="termModal">[ ESC / CLOSE ]</button>
+      </div>
+      <div class="term-log" id="termLog">
+        <div>Welcome to GunaShankar's interactive console.</div>
+        <div>Type <strong>help</strong> to list commands (whoami, skills, links, game, invert, clear).</div>
+      </div>
+      <form class="term-form" id="termForm">
+        <span>$</span>
+        <input type="text" id="termInput" placeholder="enter command..." autocomplete="off" />
+      </form>
+    </div>
+  </div>-->
+
+  <!-- MODAL 2: RESUME PREVIEW 
+  <div class="modal-overlay" id="resumeModal">
+    <div class="modal-card modal-card--light">
+      <div class="modal-top">
+        <span>RESUME // GUNASHANKAR POLAKI</span>
+        <button data-close="resumeModal">[ CLOSE ]</button>
+      </div>
+      <h2 style="font-family: var(--font-display); font-size: 1.8rem; letter-spacing: -0.04em;">GunaShankar Polaki</h2>
+      <p style="font-family: var(--font-mono); font-size: 0.8rem; margin: 6px 0 18px;">
+        gunapolaki143@gmail.com • github.com/gunapolaki143-maker • leetcode.com/u/Gunashankar
+      </p>
+      <hr style="border: none; border-top: 1px solid #111; margin-bottom: 16px;" />
+      <p style="font-size: 0.94rem; margin-bottom: 16px;">
+        Computer Science student practicing Java, algorithmic problem-solving, and hands-on web development
+        with a focus on building projects that solve real-world problems.
+      </p>
+      <h4 style="font-family: var(--font-mono); margin-bottom: 6px;">CORE SKILLS</h4>
+      <p style="font-size: 0.9rem; margin-bottom: 16px;">Java, Data Structures &amp; Algorithms, HTML5, CSS3, JavaScript, Git &amp; GitHub</p>
+      <h4 style="font-family: var(--font-mono); margin-bottom: 6px;">PROFILES &amp; PRACTICE</h4>
+      <p style="font-size: 0.9rem; margin-bottom: 20px;">Active problem solver on LeetCode and continuous project builder on GitHub.</p>
+      <button class="btn-editorial" onclick="window.print()" style="background: #111; color: #fff;">Print / Save as PDF</button>
+    </div>
+  </div>-->
+
+  <!-- MODAL 3: MINI-GAME (BUG SQUASHER) 
+  <div class="modal-overlay" id="gameModal">
+    <div class="modal-card">
+      <div class="modal-top">
+        <span>MINI-GAME // BUG SQUASHER</span>
+        <button data-close="gameModal">[ CLOSE ]</button>
+      </div>
+      <div style="display:flex; justify-content:space-between; font-family:var(--font-mono); font-size:0.82rem;">
+        <span>Score: <strong id="gScore">0</strong></span>
+        <span>Time: <strong id="gTime">20</strong>s</span>
+      </div>
+      <div class="arena" id="arena">
+        <button class="bug-btn" id="bugTarget" style="display:none;">🪲</button>
+      </div>
+      <button class="btn-editorial" id="startGameBtn" style="width:100%; background:#fff; color:#111;">Start 20s Debug Run</button>
+    </div>
+  </div>-->
+
+  <script src="script.js"></script>
+</body>
+</html>
